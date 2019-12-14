@@ -16,13 +16,13 @@ csl: apa.csl
 
 ---
 
-This is a work in progress. In the moment it is mostly an overview of Mat Marquis' excellent Introduction to JavaSript for Designers
+Work in progress! In the moment it is mostly an overview of Mat Marquis' excellent Introduction to JavaSript for Designers
 
 [@marquisJavascriptWebDesigners2016]
 
 ---
 
-We will make a lot of use of the code examples in the last chapter of Marquis' book. 
+We will make a lot of use of the code examples in the last chapter of Marquis' book.
 
 
 # Behaviour and dynamic content
@@ -85,8 +85,15 @@ Lazy loading https://www.andreaverlicchi.eu/lazyload/
 - [Custom Elements: defining new elements in HTML - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/webcomponents/customelements/ "Custom Elements: defining new elements in HTML - HTML5 Rocks")
 - [Polymer Project](https://www.polymer-project.org/ "Polymer Project")
 
+## Progressive Web Apps
+
+[Progressive Web Apps](https://developers.google.com/web/progressive-web-apps "Progressive Web Apps  |  Google Developers")
 
 # DOM and DOM scripting
+
+##
+
+![Birger Eriksson, https://commons.wikimedia.org/wiki/File:DOM-model.svg](pics/dom.svg)
 
 ##
 > JavaScript communicates with the contents of our pages by way of an
@@ -562,7 +569,7 @@ firstParagraph.appendChild( newLink );
 
 ```
 
-Optimizing 1: Renaming the function
+## Optimizing 1: Renaming the function
 
 ```javascript
 var newLink = document.createElement( 'a' );
@@ -605,7 +612,8 @@ toggleCopy();
 
 firstParagraph.appendChild( newLink );
 ```
-Optimizing 2:Making sure that `this` is referencing the link
+
+## Optimizing 2:Making sure that `this` is referencing the link
 
 
 ```javascript
@@ -953,18 +961,37 @@ firstParagraph.appendChild( newLink );
 
 ## What is a scripting language?
 
+- Interpreted, not compiled
+- dynamic types
+
 ## JSON
 
-## JavaScript and the design of the web
-
-## Standardization and browser issues
+[JSON Example](https://json.org/example.html "JSON Example")
 
 
 # JavaScript frameworks
 
-# progressive enhancement
+---
+
+- [Angular](https://angular.io/ "Angular")
+- [React – A JavaScript library for building user interfaces](https://reactjs.org/ "React – A JavaScript library for building user interfaces")
+- [Vue.js](https://vuejs.org/ "Vue.js")
+
+# Progressive Enhancement
+
+---
+
+> Progressive enhancement is a strategy for web design that emphasizes core webpage content first. This strategy then progressively adds more nuanced and technically rigorous layers of presentation and features on top of the content as the end-user's browser/internet connection allow.
+
+---
+
+> The proposed benefits of this strategy are that it allows everyone to access the basic content and functionality of a web page, using any browser or Internet connection, while also providing an enhanced version of the page to those with more advanced browser software or greater bandwidth.
 
 # Serverside JavaScript
+
+---
+
+[Node.js](https://nodejs.org/en/ "Node.js")
 
 ---
 JavaScript best practices - W3C Wiki https://www.w3.org/wiki/JavaScript_best_practices
