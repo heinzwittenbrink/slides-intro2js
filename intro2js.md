@@ -37,7 +37,7 @@ We will make a lot of use of the code examples in the last chapter of Marquis' b
 
 - HTML is the standard for textual content on the web
 - CSS is the standard for the presentation of content on the web
-- JavaScript (EcmaScript) is the standard for programmed manipulation of web content in the browser
+- JavaScript ([ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm "Standard ECMA-262")) is the standard for programmed manipulation of web content in the browser
 
 
 
@@ -51,11 +51,7 @@ We will make a lot of use of the code examples in the last chapter of Marquis' b
 
 ---
 
-> The same kinds of web standards efforts
-> that brought us semantically-meaningful markup and sane CSS support
-> have also made JavaScript's syntax more consistent from browser to
-> browser, and set reasonable constraints around the parts of a
-> browser's behavior it can influence.
+> The same kinds of web standards efforts that brought us semantically-meaningful markup and sane CSS support have also made JavaScript's syntax more consistent from browser to browser, and set reasonable constraints around the parts of a browser's behavior it can influence.
 
 [@marquisJavascriptWebDesigners2016]
 
@@ -63,9 +59,9 @@ We will make a lot of use of the code examples in the last chapter of Marquis' b
 
 ## JavaScript for presentation
 
-[Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video "Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers")
+- [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video "Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers")
 
-Lazy loading https://www.andreaverlicchi.eu/lazyload/
+- [Lazy loading](https://www.andreaverlicchi.eu/lazyload/)
 
 ## Dynamic loading of content
 
@@ -88,6 +84,8 @@ Lazy loading https://www.andreaverlicchi.eu/lazyload/
 ## Progressive Web Apps
 
 [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps "Progressive Web Apps  |  Google Developers")
+
+[Resilient Web Design](https://resilientwebdesign.com/ "Resilient Web Design")
 
 # DOM and DOM scripting
 
@@ -129,6 +127,10 @@ Lazy loading https://www.andreaverlicchi.eu/lazyload/
 > methods and functions that allow access to the mapped nodes
 
 [@marquisJavascriptWebDesigners2016]
+
+## Addressing nodes
+
+[JavaScript/DOM/Node – SELFHTML-Wiki](https://wiki.selfhtml.org/wiki/JavaScript/DOM/Node "JavaScript/DOM/Node – SELFHTML-Wiki")
 
 # The language
 
